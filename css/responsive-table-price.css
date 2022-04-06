@@ -1,0 +1,136 @@
+/* Độ rộng < 1366px */
+
+@media screen and (max-width:1366px) {
+    .container {
+        max-width: 90%!important;
+    }
+}
+
+
+/* Độ rộng < 1024 */
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 90%!important;
+    }
+}
+
+
+/* Độ rộng < 768px */
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .slider {
+        display: block!important;
+        display: flex!important;
+    }
+    .price h3 {
+        text-align: center;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: white!important;
+    }
+}
+
+
+/* Độ rộng < 576px */
+
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .slider .news h1 {
+        font-size: 28px;
+    }
+    .slider {
+        min-height: 430px;
+    }
+}
+
+
+/* Độ rộng < 480px */
+
+@media screen and (max-width:480px) {
+    .slider .news h1 {
+        font-size: 23px;
+    }
+    .slider {
+        height: 300px;
+    }
+    .slider .news h1 {
+        font-size: 20px;
+    }
+    .breadcrumb-item a {
+        font-size: 16px!important;
+    }
+    .breadcrumb-item.active {
+        font-size: 16px!important;
+    }
+    .slider {
+        min-height: 300px!important;
+    }
+    .slider {
+        margin-bottom: 20px;
+    }
+    #header {
+        opacity: 1;
+    }
+    .respon-menu {
+        height: max-content;
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Độ rộng < 360px */
+
+@media screen and (max-width:360px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .slider .news h1 {
+        font-size: 18px;
+    }
+    .slider {
+        min-height: 200px!important;
+    }
+    .breadcrumb-item a {
+        font-size: 16px!important;
+    }
+    .breadcrumb-item.active {
+        font-size: 16px!important;
+    }
+    #header .container {
+        padding-left: 0px !important;
+        padding-right: 0px!important
+    }
+    .go-to-top {
+        right: 30px!important;
+    }
+}
+
+
+/* Độ rộng < 320px */
+
+@media screen and (max-width:320px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .slider .news h1 {
+        font-size: 16px;
+    }
+    .breadcrumb-item.active {
+        font-size: 14px!important;
+    }
+    .breadcrumb-item a {
+        font-size: 14px!important;
+    }
+    .slider .news h1 {
+        margin-bottom: 5px;
+    }
+    .VAT {
+        overflow: hidden;
+    }
+}

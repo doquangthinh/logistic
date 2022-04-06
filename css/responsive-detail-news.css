@@ -1,0 +1,118 @@
+/* Độ rộng < 1366px */
+
+@media screen and (max-width:1366px) {
+    .dd-mm-yy {
+        position: absolute!important;
+        top: -44px!important;
+        left: 15px;
+    }
+}
+
+
+/* Độ rộng < 1024px */
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .news .item img {
+        max-width: 100%;
+    }
+    .slider .news h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: #fff;
+    }
+}
+
+
+/* Độ rộng < 768px */
+
+@media screen and (max-width:768px) {
+    #wp-content .slider {
+        display: block;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .slider .news {
+        position: absolute;
+        top: 45%;
+    }
+}
+
+
+/* Độ rộng < 576px */
+
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 90%1important;
+    }
+    #wp-content .slider {
+        margin-bottom: 100px;
+    }
+    .news .item img {
+        width: 100%!important;
+    }
+    ul.pagination {
+        justify-content: center!important;
+    }
+}
+
+
+/* Độ rộng < 480px */
+
+@media screen and (max-width:480px) {
+    .container {
+        max-width: 90%!important;
+    }
+    #wp-content .slider {
+        min-height: 250px!important;
+    }
+    .slider .news h1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 48px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .breadcrumb-item a {
+        font-family: "Muli", sans-serif;
+        font-size: 16px!important;
+        font-weight: 400!important;
+        color: #fff!important;
+    }
+    .breadcrumb-item.active {
+        font-size: 16px!important;
+    }
+    .slider .news {
+        position: relative;
+        top: 50px;
+    }
+}
+
+
+/* Độ rộng < 360px */
+
+@media screen and (max-width:360px) {
+    .container {
+        max-width: 90%!important;
+    }
+}
+
+
+/* Độ rộng < 320px */
+
+@media screen and (max-width:320px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .slider .news {
+        position: relative;
+        top: 100px;
+    }
+    ul.pagination {
+        font-size: small!important;
+    }
+}

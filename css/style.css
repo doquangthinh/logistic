@@ -1,0 +1,757 @@
+body {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.05rem;
+    color: #3c4550;
+}
+
+#header ul.menu {
+    padding-top: 16px;
+}
+
+#header ul.menu li a {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#header ul.menu li a:hover {
+    color: #19b7f9;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: inherit;
+    z-index: 200;
+}
+
+.about-us i {
+    color: #19b7f9;
+}
+
+.about-us img:hover {
+    transition: all 0.5s;
+    transform: rotate(360deg);
+}
+
+.block-service-1 {
+    background-color: #f2f7f8;
+}
+
+.block-service-1 .service-duong-bo {
+    padding: 100px 150px 0px 0px;
+}
+
+.block-service-2 .service-hangkhong {
+    padding: 100px 0px 0px 150px;
+}
+
+.block-service-1 .service-duong-bo h3 {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    color: #3c4550;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.block-service-2 .service-hangkhong h3 {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.block-service-2 .service-hangkhong p {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.block-service-1 .service-duong-bo p {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    color: #3c4550;
+}
+
+.block-service-3 .container {
+    padding-right: 0px!important;
+}
+
+.block-service-3 .service-duongbien p {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    color: #3c4550;
+}
+
+.block-service-3 .service-duongbien h3 {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    color: #3c4550;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.block-service-3 .service-duongbien {
+    padding: 100px 150px 0px 0px;
+}
+
+.block-service-2 {
+    background-color: #19b7f9;
+}
+
+.block-service-3 {
+    background-color: #f2f7f8;
+}
+
+.duong-bo {
+    background-color: #f2f7f8;
+}
+
+.hang-khong {
+    background-color: #19b7f9;
+    color: white;
+}
+
+.duong-bien {
+    background-color: #f2f7f8;
+}
+
+.img-serivce-car {
+    position: relative;
+}
+
+.img-serivce-plane {
+    position: relative;
+}
+
+.img-serivce-ship {
+    position: relative;
+}
+
+.service-car {
+    position: absolute;
+    top: 45%;
+    left: -12%;
+    z-index: 100;
+    background: white;
+    padding: 30px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    box-shadow: 10px 10px 10px #626060;
+}
+
+.service-car:hover {
+    transition: all 0.5s;
+    transform: rotate(360deg);
+}
+
+.service-plane:hover {
+    transition: all 0.5s;
+    transform: rotate(360deg);
+}
+
+.service-ship:hover {
+    transition: all 0.5s;
+    transform: rotate(360deg);
+}
+
+.service-plane {
+    position: absolute;
+    top: 45%;
+    right: -10%;
+    z-index: 100;
+    background: white;
+    padding: 30px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    box-shadow: 10px 10px 10px #626060;
+}
+
+.service-ship {
+    position: absolute;
+    top: 45%;
+    left: -12%;
+    z-index: 100;
+    background: white;
+    padding: 30px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    box-shadow: 10px 10px 10px #626060;
+}
+
+.about-us .about {
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.about-us h3 {
+    font-size: 18px;
+}
+
+.about-us .about:before {
+    position: absolute;
+    bottom: -15px;
+    right: 48%;
+    border-bottom: 2px solid #19b7f9;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+.service-title {
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.service-title::before {
+    position: absolute;
+    bottom: -20px;
+    right: 48%;
+    border-bottom: 2px solid #19b7f9;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+.different-title {
+    color: #3c4550;
+    position: relative;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.different h3 {
+    color: #3c454f;
+    font-size: 18px;
+    color: #3c454f;
+    font-weight: 700;
+}
+
+.different-title:before {
+    position: absolute;
+    bottom: -20px;
+    right: 48%;
+    border-bottom: 2px solid #19b7f9;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+.different .title {
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.block-shipping {
+    padding-right: 25px!important;
+    padding-left: 25px!important;
+}
+
+.kiem-soat {
+    position: relative;
+    font-size: 18px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: #3c4550;
+}
+
+.chuyen-nghiep {
+    position: relative;
+    font-size: 18px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: #3c4550;
+}
+
+.giao-thong {
+    position: relative;
+    font-size: 18px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: #3c4550;
+}
+
+.dich-vu {
+    position: relative;
+    font-size: 18px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    color: #3c4550;
+}
+
+.kiem-soat-01 {
+    background-color: #19b7f9;
+    display: inline-block;
+    padding: 22px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    left: -20%;
+    top: -30px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.chuyen-nghiep-02 {
+    background-color: #19b7f9;
+    display: inline-block;
+    padding: 22px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    left: -20%;
+    top: -30px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.giao-thong-03 {
+    background-color: #19b7f9;
+    display: inline-block;
+    padding: 22px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    left: -20%;
+    top: -30px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.dich-vu-04 {
+    background-color: #19b7f9;
+    display: inline-block;
+    padding: 22px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    left: -20%;
+    top: -30px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.choice-us {
+    position: relative;
+    margin-bottom: 100px;
+    font-size: 26px;
+    color: #3c4550;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+}
+
+.choice-us:before {
+    position: absolute;
+    bottom: -15px;
+    right: 48%;
+    border-bottom: 2px solid #19b7f9;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+.solieu-thongke {
+    position: relative;
+    margin-bottom: 50px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.solieu-thongke:before {
+    position: absolute;
+    bottom: -10px;
+    right: 48%;
+    border-bottom: 2px solid #fff000;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+.progress {
+    height: 40px!important;
+}
+
+.progress-bar {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #19b7f9!important;
+}
+
+.statistical p {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.block-123 {
+    margin-top: 35%;
+}
+
+.block-123 h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #3c4550;
+    font-family: "Muli", sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.tich-1 p.app-1 {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    color: #3c4550;
+    margin-bottom: 20px;
+}
+
+.app img {
+    position: relative;
+    top: -70px;
+}
+
+.tich-2 p.app-2 {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    color: #3c4550;
+    margin-bottom: 20px;
+}
+
+.google {
+    position: relative!important;
+    padding-left: 40%!important;
+    padding-top: 10px;
+    border: 2px solid #19b7f9;
+    border-radius: 41px;
+}
+
+.google i,
+p {
+    color: #19b7f9;
+}
+
+.app i,
+p {
+    color: #19b7f9;
+}
+
+.fa-android {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+.apple {
+    position: relative!important;
+    padding-left: 40%!important;
+    padding-top: 10px;
+    border: 3px solid #19b7f9;
+    border-radius: 41px;
+}
+
+.fa-apple {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.new-title {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.new-title :hover {
+    color: #19b7f9;
+}
+
+.new-title:before {
+    position: absolute;
+    bottom: -10px;
+    right: 48%;
+    border-bottom: 2px solid #19b7f9;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+p.google-play {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.app-store {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dd-mm-yy {
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    background-color: #19b7f9;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    color: white;
+}
+
+.dd-mm {
+    position: relative;
+    color: white;
+}
+
+.yy {
+    color: white;
+}
+
+.dd-mm:before {
+    position: absolute;
+    bottom: -2px;
+    right: 10%;
+    border-bottom: 1px solid white;
+    content: "";
+    width: 30px !important;
+    height: 2px;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding-top: 50px;
+}
+
+.news .owl-carousel .item img {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.news .owl-carousel .item .dd-mm-yy {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
+
+.news .content {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c4550;
+}
+
+.news .owl-carousel a.title {
+    font-size: 20px;
+    text-decoration: none;
+    color: #3c4550;
+    font-weight: bold;
+    margin-top: 20px!important;
+}
+
+.news .owl-carousel .title:hover {
+    color: #19b7f9;
+}
+
+.news .see-more {
+    color: #19b7f9;
+    text-decoration: none!important;
+}
+
+.news .see-more:hover {
+    color: black;
+}
+
+.news .content {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-next i {
+    position: absolute;
+    left: 0px;
+    top: 35%;
+    padding: 15px;
+    background: white;
+    color: #19b7f9;
+}
+
+.owl-carousel .owl-nav button.owl-next i:hover {
+    background: #19b7f9;
+    color: white;
+}
+
+.owl-carousel .owl-nav button.owl-prev i {
+    position: absolute;
+    background: white;
+    right: 0px;
+    top: 35%;
+    padding: 15px;
+    color: #19b7f9;
+}
+
+.owl-carousel .owl-nav button.owl-prev i:hover {
+    background: #19b7f9;
+    color: white;
+}
+
+.contact {
+    padding-top: 50px;
+}
+
+.contact .block-contact h3.contact-title {
+    position: relative;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #3c4550;
+}
+
+.contact .block-contact h3.contact-title:before {
+    position: absolute;
+    bottom: -15px;
+    right: 48%;
+    border-bottom: 2px solid #19b7f9;
+    content: "";
+    width: 50px !important;
+    height: 2px;
+}
+
+.block-contact-1 {
+    background-color: #19b7f9;
+    padding: 30px 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6!important;
+    padding: 52px 35px 52px 35px!important;
+}
+
+#news a.see-more:hover a {
+    text-decoration: none;
+}
+
+.contact h5 {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #3c4550;
+}
+
+input.fullname {
+    border: none;
+    outline: none;
+    padding: 20px 20px 10px 0px;
+    border-bottom: 1px solid #ececec;
+    width: 90%;
+}
+
+input.email {
+    border: none;
+    outline: none;
+    padding: 20px 20px 10px 0px;
+    border-bottom: 1px solid #ececec;
+    width: 90%;
+}
+
+textarea.text-content {
+    border: none;
+    outline: none;
+    padding: 20px 20px 10px 0px;
+    border-bottom: 1px solid #ececec;
+    width: 90%;
+}
+
+.contact h3.name-company {
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact span {
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn-submit {
+    background: #19b7f9;
+    border: none;
+    outline: none;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.coppy-right {
+    font-family: "Muli", sans-serif;
+    background: #1c2f3c!important;
+    color: #a3a5a6;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+
+.coppy-right .block-social {
+    font-size: x-large;
+}
+
+.service-img img {
+    position: relative;
+    max-width: max-content;
+}
+
+.form-block-infomation {
+    position: relative;
+    bottom: -100px;
+}
+
+.service .block-carousel {
+    display: none!important;
+}
+
+#header .navbar {
+    display: none;
+}
+
+.respon-menu {
+    /* display: none; */
+    background: #fff;
+    width: 230px;
+    color: #343434;
+    position: absolute;
+    top: 0px;
+    left: -250px;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.open-respon-menu .respon-menu {
+    left: 0px;
+}
+
+.cd-top--is-visible {
+    /* // back-to-top button visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top--fade-out {
+    /* // reduce button opacity if user keeps scrolling */
+    opacity: .5;
+}
+
+.go-to-top {
+    font-size: -webkit-xxx-large;
+    position: relative;
+    position: fixed;
+    bottom: 76px;
+    right: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

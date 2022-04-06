@@ -1,0 +1,71 @@
+#wp-content .slider .news nav.title-detail {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    opacity: 0.7;
+}
+
+.slider {
+    margin-bottom: 75px;
+}
+
+.price h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Muli", sans-serif;
+    margin-bottom: 30px;
+    color: #3c4550;
+}
+
+#wp-content {
+    background: #f2f7f8;
+}
+
+.quy-chuan .p1,
+.VAT .p1,
+.thanh-toan .p1,
+.thoi-gian .p1 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: "Muli", sans-serif;
+    line-height: 1.4;
+    color: #3c4550;
+}
+
+.quy-chuan .p2,
+.VAT .p2,
+.thanh-toan .p2,
+.thoi-gian .p2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Muli", sans-serif;
+    line-height: 1.4;
+    color: #3c4550;
+}
+
+.quy-chuan table,
+th,
+td {
+    border: 1px solid white!important;
+}
+
+.quy-chuan table {
+    text-align: center;
+}
+
+.quy-chuan table .tr {
+    background: #19b7f9;
+    color: white;
+    height: 100px;
+}
+
+.quy-chuan table tr:not(.tr) {
+    height: 60px;
+    color: #1c1c1c;
+    font-family: "Muli", sans-serif;
+    background: aqua;
+}

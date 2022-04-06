@@ -1,0 +1,33 @@
+/* Độ rộng < 1366px */
+
+@media screen and (max-width:1366px) {}
+
+
+/* Độ rộng < 1024 */
+
+@media screen and (max-width:1024px) {}
+
+
+/* Độ rộng < 768px */
+
+@media screen and (max-width:768px) {}
+
+
+/* Độ rộng < 576px */
+
+@media screen and (max-width:576px) {}
+
+
+/* Độ rộng < 480px */
+
+@media screen and (max-width:480px) {}
+
+
+/* Độ rộng < 360px */
+
+@media screen and (max-width:360px) {}
+
+
+/* Độ rộng < 320px */
+
+@media screen and (max-width:320px) {}

@@ -1,0 +1,457 @@
+/* Độ rộng < 1366px */
+
+@media screen and (max-width:1366px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .statistical {
+        overflow: hidden;
+    }
+    .block-service-1 .service-img {
+        overflow: hidden;
+    }
+    .block-service-2 .service-img {
+        overflow: hidden;
+    }
+    .block-service-3 .service-img {
+        overflow: hidden;
+    }
+    .block-service-1 .container {
+        margin-right: 0px!important;
+    }
+    .block-service-2 .container {
+        margin-right: 0px!important;
+    }
+    .block-service-3 .container {
+        margin-right: 0px!important;
+    }
+    .choice .traffic {
+        padding-right: 70px!important;
+    }
+}
+
+
+/* Độ rộng < 1024px */
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .service .block-carousel {
+        display: block!important;
+    }
+    .block-service-1 {
+        display: none;
+    }
+    .block-service-2 {
+        display: none;
+    }
+    .block-service-3 {
+        display: none;
+    }
+    .statistical img {
+        display: none;
+    }
+    #header ul.menu li a {
+        font-size: 16px;
+        margin-right: 16px;
+    }
+    .img-serivce-car {
+        position: relative;
+        height: 100%;
+    }
+    .img-serivce-plane {
+        position: relative;
+        height: 100%;
+    }
+    .img-serivce-ship {
+        position: relative;
+        height: 100%;
+    }
+    .img-icon-1,
+    .img-icon-3 {
+        position: absolute;
+        z-index: 1;
+        top: 45%;
+        left: -14%;
+        padding: 21px;
+        background: white;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        box-shadow: 10px 10px 10px #626060;
+    }
+    .img-icon-2 {
+        position: absolute;
+        z-index: 1;
+        top: 45%;
+        left: -12%;
+        padding: 21px;
+        background: white;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        box-shadow: 10px 10px 10px #626060;
+    }
+    .service-duong-bo,
+    .service-hangkhong,
+    .service-duongbien {
+        padding: 50px 50px 2px 30px;
+        background-color: #f2f7f8;
+    }
+    .service-duong-bo h3,
+    .service-hangkhong h3,
+    .service-duongbien h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .different-title {
+        font-size: 24px;
+    }
+    .kiem-soat-01 {
+        background-color: #19b7f9;
+        display: inline-block;
+        padding: 16px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        position: absolute;
+        left: -20%;
+        top: -30px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .chuyen-nghiep-02 {
+        background-color: #19b7f9;
+        display: inline-block;
+        padding: 16px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        position: absolute;
+        left: -20%;
+        top: -30px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .giao-thong-03 {
+        background-color: #19b7f9;
+        display: inline-block;
+        padding: 16px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        position: absolute;
+        left: -20%;
+        top: -30px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .dich-vu-04 {
+        background-color: #19b7f9;
+        display: inline-block;
+        padding: 16px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        position: absolute;
+        left: -20%;
+        top: -30px;
+        color: #fff;
+        font-size: 22px;
+    }
+    .slider {
+        min-height: 600px;
+    }
+    #carouselExampleControls {
+        position: relative;
+    }
+    .carousel-control-next-icon {
+        position: absolute;
+        background-color: #19b7f9!important;
+        padding: 19px!important;
+        right: 15px;
+    }
+    .carousel-control-prev-icon {
+        position: absolute;
+        background-color: #19b7f9!important;
+        padding: 19px!important;
+        left: 15px;
+    }
+    .news .owl-carousel a.title {
+        font-size: 18px;
+        text-decoration: none;
+        color: #3c4550;
+        font-weight: bold;
+        margin-top: 20px!important;
+        line-height: 1.2;
+    }
+    .form-block-infomation {
+        position: unset;
+    }
+    .contact h5 {
+        margin-top: 21px;
+        margin-bottom: 10px;
+    }
+    .btn-submit {
+        margin-top: 0px;
+    }
+    .chuyenghiep,
+    .logistic {
+        padding-right: 0px!important;
+    }
+}
+
+
+/* Độ rộng < 768px */
+
+@media screen and (max-width:768px) {
+    #header ul.menu {
+        display: none!important;
+    }
+    #header a.logo {
+        text-align: center;
+        display: block;
+    }
+    #header .navbar {
+        display: block;
+    }
+    .slider {
+        display: none;
+    }
+    #header {
+        position: unset;
+    }
+    .kiem-soat-01 {
+        left: -20%;
+    }
+    .giao-thong-03 {
+        left: -20%;
+    }
+    .choice-us {
+        margin-top: 50px;
+    }
+    .choice .why-choice {
+        padding-left: 80px!important;
+    }
+    .block-123 {
+        margin-top: 0%;
+    }
+    .form-block-infomation {
+        position: relative;
+    }
+    .navbar-nav {
+        padding-left: 30px!important;
+    }
+    .img-icon-1,
+    .img-icon-2,
+    .img-icon-3 {
+        left: -18%;
+    }
+    .choice {
+        margin-bottom: 15px;
+    }
+    .block-123 {
+        padding-bottom: 30px;
+    }
+    .go-to-top {
+        font-size: xx-large;
+        position: relative;
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+    }
+}
+
+
+/* Độ rộng < 576px */
+
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 95%!important;
+    }
+    #header {
+        padding: 15px 0px 10px 0px!important;
+    }
+    .about-us .about {
+        font-size: 22px;
+    }
+    .about-us .about:before {
+        right: 45%;
+    }
+    .service-title {
+        font-size: 22px;
+    }
+    .service-title::before {
+        right: 45%;
+    }
+    .different-title {
+        font-size: 20px;
+    }
+    .choice-us {
+        font-size: 24px;
+    }
+    .solieu-thongke {
+        font-size: 22px;
+    }
+    .navbar-nav {
+        padding-left: 0px!important;
+    }
+    .progress {
+        height: 25px!important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 16px;
+        padding-right: 0px!important;
+    }
+    .img-icon-1,
+    .img-icon-2,
+    .img-icon-3 {
+        display: none;
+    }
+    .service-duong-bo,
+    .service-hangkhong,
+    .service-duongbien {
+        text-align: center;
+        padding: 25px 5px 10px 5px;
+    }
+    .different .title {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .choice .kiemsoat {
+        margin-bottom: 10px!important;
+    }
+    .kiem-soat-01,
+    .chuyen-nghiep-02,
+    .giao-thong-03,
+    .dich-vu-04 {
+        left: -12%;
+    }
+    .kiemsoat,
+    .chuyenghiep,
+    .traffic,
+    .logistic {
+        margin-bottom: 15px;
+    }
+    .contact {
+        padding-top: 0px;
+    }
+    .statistical {
+        padding-top: 50px!important;
+    }
+    .google {
+        margin-bottom: 25px;
+    }
+    .new-title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .maps iframe {
+        height: 300px;
+    }
+    .coppy {
+        text-align: center;
+    }
+    .social {
+        flex-direction: row;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .navbar-dark .navbar-toggler {
+        position: absolute;
+        top: -40px;
+    }
+    .open-respon-menu .respon-menu {
+        background-color: #c0392b;
+    }
+    a.nav-link {
+        color: white;
+    }
+    a.nav-link:hover a.nav-link {
+        color: #19b7f9!important;
+    }
+    .respon-head img {
+        width: 75%;
+        padding: 17px 10px 10px 10px;
+    }
+    #icon-menu-responsive {
+        position: absolute!important;
+        font-size: xxx-large;
+        color: #ffffff;
+        background: #da80e0;
+        border: none;
+        position: relative;
+        left: 181px;
+    }
+    .choice {
+        overflow: hidden;
+    }
+    .coppy {
+        font-size: 12px;
+    }
+    .service .block .owl-carousel p {
+        font-size: 12px;
+    }
+    .block-contact-1 {
+        padding: 30px 25px 30px 25px!important;
+    }
+    .form-block-infomation h3 {
+        margin-bottom: 25px!important;
+    }
+}
+
+
+/* Độ rộng < 480px */
+
+@media screen and (max-width:480px) {
+    .container {
+        max-width: 90%!important;
+    }
+    .kiemsoat,
+    .chuyenghiep,
+    .traffic,
+    .logistic {
+        padding-right: 10px!important;
+        padding-left: 20px!important;
+    }
+    #header a.logo img {
+        padding-left: 40px;
+    }
+    .kiem-soat-01,
+    .chuyen-nghiep-02,
+    .giao-thong-03,
+    .dich-vu-04 {
+        left: -14%;
+    }
+}
+
+
+/* Độ rộng < 320px */
+
+@media screen and (max-width:320px) {
+    .container {
+        max-width: 95%!important;
+    }
+    #header a.logo img {
+        width: 70%;
+        padding-left: 36px;
+    }
+    .different-title:before {
+        right: 40%;
+    }
+    .choice .why-choice {
+        padding-left: 55px!important;
+    }
+    .choice-us:before {
+        right: 40%;
+    }
+    .kiemsoat,
+    .chuyenghiep,
+    .traffic,
+    .logistic {
+        padding-left: 30px!important;
+    }
+    .choice .traffic {
+        padding-right: 20px!important;
+    }
+    .different-title {
+        font-size: 18px;
+    }
+    .form-block-infomation {
+        position: relative;
+        bottom: -50px;
+    }
+    .form-block-infomation .col-md-8 {
+        padding-left: 2rem!important;
+    }
+}
